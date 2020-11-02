@@ -1,5 +1,5 @@
 
-import Button  from "./button";
+import Button  from "./component/button";
 import React, { useState } from 'react';
 
 function App() {
