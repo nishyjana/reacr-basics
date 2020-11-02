@@ -25,41 +25,29 @@ const [fruit, setFruit] = useState('banana');
   }
   return(
     <Fade left cascade>
-   <div>
-       
-  <p>you clicked in {count} age {age} fruit {fruit}</p>
-      
-      <div>
-        {count}
-      </div>
-      <div className="button">
-      <div className="button-decrease">
-      
-      <button 
-      onClick={()=>{countDrement()
-       
-          }}>
-        
-        
-        decrease
-      </button>
-      
-      </div>
-      <div className="button-increase">
-      <button 
-      onClick={()=>{countIncrement()
-       
-          }}>
-        
-        
-        increase
-      </button>
-      </div>
-      </div>
-      
-      
-    </div>
-     
+        <div>
+           
+       <p>you clicked in {count} age {age} fruit {fruit}</p>
+           
+           
+           <div className="button">
+                  <div className="button-decrease">
+           
+                      <button 
+                         onClick={()=>{countDrement() }}>  decrease
+                      </button>
+           
+                  </div>
+                  <div className="button-increase">
+                      <button 
+                        onClick={()=>{countIncrement() }}> increase
+                      </button>
+                  </div> 
+             </div>
+           
+           
+        </div>
+          
    
     
     </Fade>
